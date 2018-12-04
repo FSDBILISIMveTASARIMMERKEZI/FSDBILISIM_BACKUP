@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+rewritecond %{http_host} ^fsdbilisim.com [nc]
+rewriterule ^(.*)$ http://www.fsdbilisim.com/$1 [r=301,nc] 

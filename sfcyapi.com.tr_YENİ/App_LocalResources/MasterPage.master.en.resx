@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="adres" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="alisveris" xml:space="preserve">
+    <value>Shopping malls</value>
+  </data>
+  <data name="anasayfa" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="baraj" xml:space="preserve">
+    <value>Dams</value>
+  </data>
+  <data name="blog" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+  <data name="cimento" xml:space="preserve">
+    <value>Cement factories</value>
+  </data>
+  <data name="d1" xml:space="preserve">
+    <value>King Salman Specialized Hospital Housing Facilities</value>
+  </data>
+  <data name="d2" xml:space="preserve">
+    <value>Hilton Convention</value>
+  </data>
+  <data name="d3" xml:space="preserve">
+    <value>King Salman Specialized</value>
+  </data>
+  <data name="demircelik" xml:space="preserve">
+    <value>Iron and Steel Works</value>
+  </data>
+  <data name="devam" xml:space="preserve">
+    <value>more...</value>
+  </data>
+  <data name="devamedenprje" xml:space="preserve">
+    <value>Ongoing projects</value>
+  </data>
+  <data name="duyuru" xml:space="preserve">
+    <value>ANNOUNCEMENTS</value>
+  </data>
+  <data name="enerji" xml:space="preserve">
+    <value>Power Plants</value>
+  </data>
+  <data name="faaliyetalan" xml:space="preserve">
+    <value>Activity Area</value>
+  </data>
+  <data name="face" xml:space="preserve">
+    <value>FACEBOOK</value>
+  </data>
+  <data name="fax" xml:space="preserve">
+    <value>Fax:</value>
+  </data>
+  <data name="google" xml:space="preserve">
+    <value>GOOGLE PLUS</value>
+  </data>
+  <data name="gubre" xml:space="preserve">
+    <value>Fertilizer Factories 2D</value>
+  </data>
+  <data name="hakkimizda" xml:space="preserve">
+    <value>about us</value>
+  </data>
+  <data name="hastaneler" xml:space="preserve">
+    <value>hospitals</value>
+  </data>
+  <data name="havaalanı" xml:space="preserve">
+    <value>Airports</value>
+  </data>
+  <data name="iletisim" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="iltsm" xml:space="preserve">
+    <value>CONTACT</value>
+  </data>
+  <data name="insankynkfrm" xml:space="preserve">
+    <value>Human Resources Form</value>
+  </data>
+  <data name="instgrm" xml:space="preserve">
+    <value>INSTAGRAM</value>
+  </data>
+  <data name="kalitePltka" xml:space="preserve">
+    <value>Our quality policy</value>
+  </data>
+  <data name="kategori" xml:space="preserve">
+    <value>CATEGORIES</value>
+  </data>
+  <data name="kompleksproje" xml:space="preserve">
+    <value>Complex Projects</value>
+  </data>
+  <data name="kopsukavsak" xml:space="preserve">
+    <value>Bridges and Junctions</value>
+  </data>
+  <data name="kulturbina" xml:space="preserve">
+    <value>Cultural Properties</value>
+  </data>
+  <data name="kurumsal" xml:space="preserve">
+    <value>Corporate</value>
+  </data>
+  <data name="mail" xml:space="preserve">
+    <value>E-Mail:</value>
+  </data>
+  <data name="mail2" xml:space="preserve">
+    <value>Go to WebMail Page</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="modernkonut" xml:space="preserve">
+    <value>Modern Housing Projects</value>
+  </data>
+  <data name="ofisbina" xml:space="preserve">
+    <value>Office Buildings</value>
+  </data>
+  <data name="otelrestaurant" xml:space="preserve">
+    <value>Hotels and Restaurants</value>
+  </data>
+  <data name="otoyol" xml:space="preserve">
+    <value>Motorways</value>
+  </data>
+  <data name="prefabrik" xml:space="preserve">
+    <value>Prefabricated Buildings</value>
+  </data>
+  <data name="proje" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="referans" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="rezidans" xml:space="preserve">
+    <value>Residence Buildings</value>
+  </data>
+  <data name="sanayiendustri" xml:space="preserve">
+    <value>Industrial and Industrial Projects</value>
+  </data>
+  <data name="sosyalhizmet" xml:space="preserve">
+    <value>Social Service Buildings</value>
+  </data>
+  <data name="sosyalpylasim" xml:space="preserve">
+    <value>SOCIAL NETWORK</value>
+  </data>
+  <data name="tammlnmsproje" xml:space="preserve">
+    <value>Completed Projects</value>
+  </data>
+  <data name="tekstil" xml:space="preserve">
+    <value>Textile factories</value>
+  </data>
+  <data name="tel" xml:space="preserve">
+    <value>Telephone:</value>
+  </data>
+  <data name="toplukonut" xml:space="preserve">
+    <value>Mass Housing Buildings</value>
+  </data>
+  <data name="tunel" xml:space="preserve">
+    <value>Tunnels</value>
+  </data>
+  <data name="tutun" xml:space="preserve">
+    <value>Tobacco factories</value>
+  </data>
+  <data name="twit" xml:space="preserve">
+    <value>TWITTER</value>
+  </data>
+  <data name="ulasimEnerji" xml:space="preserve">
+    <value>Transportation and Energy Projects</value>
+  </data>
+  <data name="villaproje" xml:space="preserve">
+    <value>Villa Projects</value>
+  </data>
+</root>

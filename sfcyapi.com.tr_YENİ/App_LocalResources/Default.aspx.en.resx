@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="400" xml:space="preserve">
+    <value>Iraq 400-bed Research Hospital</value>
+  </data>
+  <data name="492" xml:space="preserve">
+    <value>492 BEDROOM IRAQ RESEARCH HOSPITAL</value>
+  </data>
+  <data name="adsoyad" xml:space="preserve">
+    <value>Name and Surname</value>
+  </data>
+  <data name="alliance" xml:space="preserve">
+    <value>Iraq Republic Ministry of Health / Aca Alliance Pty Ltd, 2012</value>
+  </data>
+  <data name="asker" xml:space="preserve">
+    <value>MILITARY HOSPITAL</value>
+  </data>
+  <data name="bar1" xml:space="preserve">
+    <value>Complex Projects</value>
+  </data>
+  <data name="bar2" xml:space="preserve">
+    <value>Industry / Industry</value>
+  </data>
+  <data name="bar3" xml:space="preserve">
+    <value>Modern Residence</value>
+  </data>
+  <data name="bar4" xml:space="preserve">
+    <value>Transport / Energy</value>
+  </data>
+  <data name="bolum" xml:space="preserve">
+    <value>Sections:</value>
+  </data>
+  <data name="bolumler" xml:space="preserve">
+    <value>Oncology, Ophthalmology, Obstetrics, Dermatology, Neurology, Pediatrics, Dentistry, Pathology, Psychiatry, Emergency Department</value>
+  </data>
+  <data name="diger" xml:space="preserve">
+    <value>Other Jobs:</value>
+  </data>
+  <data name="diger2" xml:space="preserve">
+    <value>273,000 m2 Mold
+85,300 m3 Concrete
+11,000 tons Iron</value>
+  </data>
+  <data name="diw" xml:space="preserve">
+    <value>Diwaniyah</value>
+  </data>
+  <data name="endustri" xml:space="preserve">
+    <value>INDUSTRIAL AND INDUSTRIAL PROJECTS</value>
+  </data>
+  <data name="endustri2" xml:space="preserve">
+    <value>Textile factories,
+Fertilizer Plants,
+Cement factories,
+Iron and Steel Works,
+Tobacco factories.</value>
+  </data>
+  <data name="grand" xml:space="preserve">
+    <value>GRAND ZULFIKAR HOTEL</value>
+  </data>
+  <data name="hastane" xml:space="preserve">
+    <value>Hospital Main Building:</value>
+  </data>
+  <data name="hilton" xml:space="preserve">
+    <value>Hilton Convention</value>
+  </data>
+  <data name="iletisim" xml:space="preserve">
+    <value>Would you like to communicate?</value>
+  </data>
+  <data name="irak" xml:space="preserve">
+    <value>IRAQ / KERBELA</value>
+  </data>
+  <data name="isveren" xml:space="preserve">
+    <value>Employer:</value>
+  </data>
+  <data name="kerbela" xml:space="preserve">
+    <value>KERBELA OLYMPIC SPORTS PLANT</value>
+  </data>
+  <data name="kingsalman" xml:space="preserve">
+    <value>KING SALMAN SPECIALIZED HOSPITAL</value>
+  </data>
+  <data name="kompleks" xml:space="preserve">
+    <value>COMPLEX PROJECTS</value>
+  </data>
+  <data name="kompleks2" xml:space="preserve">
+    <value>Airports,
+Hospitals,
+Shopping malls,
+Office Buildings,
+Social Service Buildings,
+Cultural Buildings,
+Mass Housing Buildings,
+Hotels and Restaurants,</value>
+  </data>
+  <data name="kule" xml:space="preserve">
+    <value>Tower A (H5A):</value>
+  </data>
+  <data name="kule2" xml:space="preserve">
+    <value>Tower B (H5B):</value>
+  </data>
+  <data name="kuleler" xml:space="preserve">
+    <value>Towing arts flooring:</value>
+  </data>
+  <data name="mail" xml:space="preserve">
+    <value>Your E-mail Adress</value>
+  </data>
+  <data name="mekke" xml:space="preserve">
+    <value>Mekka</value>
+  </data>
+  <data name="modern" xml:space="preserve">
+    <value>MODERN HOUSING PROJECTS</value>
+  </data>
+  <data name="modern2" xml:space="preserve">
+    <value>Villa Projects,
+Residence Buildings,
+Prefabricated Buildings,</value>
+  </data>
+  <data name="morg" xml:space="preserve">
+    <value>Morgue and Service Building:</value>
+  </data>
+  <data name="msj" xml:space="preserve">
+    <value>Your Message</value>
+  </data>
+  <data name="musul" xml:space="preserve">
+    <value>IRAQ / MUSUL</value>
+  </data>
+  <data name="naivana" xml:space="preserve">
+    <value>NAINAVA 6X125 MW ELECTRIC POWER PLANT</value>
+  </data>
+  <data name="nasiriyah" xml:space="preserve">
+    <value>IRAK / NASIRIYAH</value>
+  </data>
+  <data name="Nasiriyah2" xml:space="preserve">
+    <value>Nasiriyah</value>
+  </data>
+  <data name="neden" xml:space="preserve">
+    <value>Why Build SFC?</value>
+  </data>
+  <data name="neden2" xml:space="preserve">
+    <value>Having completed 10 years on the construction market, SFC Yapı has achieved a significant workforce capacity with approximately 800 employees from six different nations including professional and resident technical personnel in various countries.
+In addition to Turkey, SFC Yapı operates in many different countries in the Gulf Countries, Central Asia, the Middle East and Eastern Europe. To ensure sustainable productivity in our work, our company is always aligned with the latest technological developments and is aimed at improving the technical and personal skills of our employees in order to be more perfect.</value>
+  </data>
+  <data name="otel" xml:space="preserve">
+    <value>HOTEL</value>
+  </data>
+  <data name="personel" xml:space="preserve">
+    <value>Personnel Housing Building:</value>
+  </data>
+  <data name="podyum" xml:space="preserve">
+    <value>Podium 12 floors, Towers 23 type floors</value>
+  </data>
+  <data name="republic" xml:space="preserve">
+    <value>Iraq Republic Ministry of Health / Universal Acarsan Ltd. Co.</value>
+  </data>
+  <data name="robot" xml:space="preserve">
+    <value>I'm not a robot</value>
+  </data>
+  <data name="sanayi" xml:space="preserve">
+    <value>INDUSTRIAL AND INDUSTRIAL PROJECTS</value>
+  </data>
+  <data name="sfcyapi" xml:space="preserve">
+    <value>If you want to survive our progeny with SFC Structure, contact us.</value>
+  </data>
+  <data name="sosyal" xml:space="preserve">
+    <value>SOCIAL FACILITIES</value>
+  </data>
+  <data name="specialized" xml:space="preserve">
+    <value>KING SALMAN SPECIALIZED HOSPITAL HOUSIN FACILITIES</value>
+  </data>
+  <data name="spor" xml:space="preserve">
+    <value>SPORT COMPLEX</value>
+  </data>
+  <data name="suudiarap" xml:space="preserve">
+    <value>SUUDI ARABIA / TAIF</value>
+  </data>
+  <data name="teklif" xml:space="preserve">
+    <value>Get Offer</value>
+  </data>
+  <data name="tel" xml:space="preserve">
+    <value>Your phone number</value>
+  </data>
+  <data name="ulasim" xml:space="preserve">
+    <value>TRANSPORTATION AND ENERGY PROJECTS</value>
+  </data>
+  <data name="ulasim2" xml:space="preserve">
+    <value>Highways,
+Bridges and Junctions,
+Lower and Upper Gates,
+Tunnels,
+Dams.</value>
+  </data>
+  <data name="gonder" xml:space="preserve">
+    <value>SEND</value>
+  </data>
+</root>

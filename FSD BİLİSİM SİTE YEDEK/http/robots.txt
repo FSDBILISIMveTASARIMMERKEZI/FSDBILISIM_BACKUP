@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /App_Code/
+Disallow: /Bin/
+Disallow: /404.html
+Disallow: /readme.txt
+Sitemap: sitemap.xml

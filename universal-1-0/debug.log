@@ -1,0 +1,9 @@
+[0520/140010.998:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Eriþim engellendi. (0x5)
+[0520/140011.139:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Boru sonlandý. (0x6D)
+[0520/140011.139:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0520/193705.307:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Eriþim engellendi. (0x5)
+[0520/193705.613:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Boru sonlandý. (0x6D)
+[0520/193705.615:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0521/133821.932:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Eriþim engellendi. (0x5)
+[0521/133822.046:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Boru sonlandý. (0x6D)
+[0521/133822.047:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
